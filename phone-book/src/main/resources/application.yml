@@ -1,0 +1,20 @@
+server:
+  port: 2020
+spring:
+  datasource:
+    driver-class-name: org.h2.Driver
+    password: ''
+    url: jdbc:h2:mem:testdb
+    username: sa
+  mvc:
+    view:
+      prefix: /views/
+      suffix: .jsp
+      
+phnbook:
+   messages:
+      saveSucc:   Contact Saved Successfully
+      updateSucc: Updated Contact Successfully
+      saveFail:   Contact Failed to Save
+      
+      
