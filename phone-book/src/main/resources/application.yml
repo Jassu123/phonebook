@@ -17,4 +17,6 @@ phnbook:
       updateSucc: Updated Contact Successfully
       saveFail:   Contact Failed to Save
       
-      
+logging:
+  file: 
+    name: application-debug.log
